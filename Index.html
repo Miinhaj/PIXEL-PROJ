@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+<head>
+    <meta name="google" content="notranslate" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">    
+    <script src="script.js"defer></script>
+    <title>Pixel Art</title>
+</head>
+<body>  
+    <div class="app">
+        <div class="controls">
+            <div>
+                <div class="title">Colour</div>
+                <input type="color" id="color">
+            </div>
+            <div>
+                <div class="title">PIXEL ART</div>
+            </div>
+            <div>
+                <div class="butt" onclick="erase()">Erase</div>
+                <div class="butt" onclick="eraseWhole()">Delete</div>
+            </div>
+            <div class="project">
+                <canvas id="canvas" width="1000" height="600"></canvas>
+            </div>
+        </div>
+</body>
+</html>
