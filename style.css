@@ -42,7 +42,7 @@ body {
     align-items: center;
 }
 .butt:hover {
-        background-color: black;
+        background-color: rgb(255, 0, 0);
 }
 
 #canvas {
